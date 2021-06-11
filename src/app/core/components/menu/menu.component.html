@@ -1,0 +1,24 @@
+<div class="flex">
+<div class="nav-toggle">
+  <div class="nav-toggle-bar"></div>
+</div>
+<nav class="nav">
+  <ul>
+    <li><a class="links-mobile" href="#" routerLink="/">HOME</a></li>
+    <li><a class="links-mobile" href="#" routerLink="/characters">CHARACTERS</a></li>
+    <li><a class="links-mobile" href="#" routerLink="/locations">LOCATIONS</a></li>
+    <li><a class="links-mobile" href="#" routerLink="/episodes">EPISODES</a></li>
+    <li><a class="links-mobile" href="#" routerLink="/favorites">FAVOURITES</a></li>
+    <!-- <li><a class="links-mobile" href="#" routerLink="/contact">CONTACT</a></li> -->
+  </ul>
+</nav>
+<nav class="c-menu">
+    <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" [routerLinkActiveOptions]="{ exact: true }"
+    routerLink="/"><img class="c-menu__icons" src="../../assets/home.svg">Home</a>
+    <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" routerLink="/characters"><img class="c-menu__icons" src="../../assets/personajes.svg">Characters</a>
+    <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" routerLink="/locations"><img class="c-menu__icons" src="../../assets/lugares.svg"> Locations</a>
+    <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" routerLink="/episodes"><img class="c-menu__icons-two" src="../../assets/play.svg"> Episodes</a>
+    <!-- <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" routerLink="/contact"><img class="c-menu__icons" src="../../assets/contact.svg">Contact</a> -->
+    <a class="c-menu__link m-3 p-lg-3" routerLinkActive="c-menu__link--active" routerLink="/favorites"><img class="c-menu__icons" src="../../assets/corazon.svg" alt="insertar SVG con la etiqueta image">Favorites</a>
+</nav>
+</div>

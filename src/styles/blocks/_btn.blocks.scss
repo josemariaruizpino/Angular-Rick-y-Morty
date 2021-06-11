@@ -1,0 +1,45 @@
+.b-btn{
+    background-color: var(--color-grey-333);
+    color: var(--color-white);
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 800;
+    border: 0;
+    padding: 24px;
+    &--secondary{
+        background: aquamarine;
+    }
+    &__small{
+        font-size: 20px;
+        padding: 8px;
+        color: white;
+        background-color: transparent;
+        border: 2px solid var(--color-primary);
+    }
+
+    &__position{
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+
+    &__background{
+        background-color: #0000009e;
+    }
+
+}
+
+@media (max-width:425px) {
+    .b-btn {
+        &__position{
+    right: 8px;
+    top: 8px;
+        }
+
+        &__small{
+            font-size: 11px;
+        }
+    }
+}
+
+

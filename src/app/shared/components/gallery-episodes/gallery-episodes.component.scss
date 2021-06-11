@@ -1,0 +1,47 @@
+.c-gallery{
+    
+    &__item {
+        background-image: url('/assets/fondoepisodes.png');
+        background-size: cover;
+        border: 3px rgb(173 165 255) solid ;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+        background-position-x: center;
+        border-radius: 10%;
+        min-height: 300px;
+        justify-content: space-around;
+    }
+
+    &__title{
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+    }
+
+    &__text-medium{
+        color: white;
+        font-size:15px;
+    }
+
+    &__text-big{
+    color: white;
+    font-size:23px;
+    }
+}
+
+@media (max-width:768px) {
+   .c-gallery{ 
+    margin-top: -6rem;
+}
+}
+
+@media (max-width:425px) {
+   .c-gallery{ 
+    &__img{
+        width: 61%;
+    }
+}
+}

@@ -1,0 +1,30 @@
+body[data-theme='light']{
+    --color-primary: aquamarine;
+    --color-white: #FFFFFF;
+    --color-grey-333: #333333;
+    --color-background: rgb(200, 255, 237);
+    --background-img:url("https://wallpapercave.com/wp/wp7110875.jpg");
+       background-attachment: fixed;
+
+}
+
+body[data-theme='dark']{
+    --color-primary: rgb(173, 165, 255);
+    --color-white: #333333;
+    --color-grey-333: #FFFFFF;
+    --color-background: #333333;
+    --background-img:url("https://img.wallpapersafari.com/desktop/1920/1080/30/42/XA1dNJ.jpg");
+        background-attachment: fixed;
+
+}
+
+@media (max-width:768px) {
+    body[data-theme='light']{
+        --background-img:url("https://wallpapercave.com/wp/wp4559934.jpg");
+        background-attachment: fixed;
+    }
+    body[data-theme='dark']{
+        --background-img:url("https://fondosmil.com/fondo/27349.jpg");
+        background-attachment: fixed;
+}
+}

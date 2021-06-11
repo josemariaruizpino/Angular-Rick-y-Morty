@@ -1,0 +1,12 @@
+<div class="c-gallery">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let item of list">
+            <div class="c-gallery__item">
+                <h2 class="c-gallery__title">{{item.name}}</h2>
+                <h4 class="c-gallery__text-big">{{item.type}}</h4>
+                <h4 class="c-gallery__text-medium">{{item.dimension}}</h4>
+                <div class="mb-4 d-flex justify-content-center"></div>
+            </div>
+        </div>
+    </div>
+</div>

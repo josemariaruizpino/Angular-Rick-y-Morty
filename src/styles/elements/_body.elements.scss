@@ -1,0 +1,19 @@
+body{
+//    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/30/42/XA1dNJ.jpg");
+    background-image: var(--background-img);
+    // background-color: var(--color-background);
+    // color: var(--color-primary);
+    // transition: .5s color ease-in-out, .5s background-color ease-in-out;
+    font-family: Arial;
+    min-height: 1070px;
+    background-size: cover;
+    }
+
+@media (max-width:768px) {
+    body{
+        background-image: var(--background-img);
+    }
+
+}
+
+

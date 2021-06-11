@@ -1,0 +1,41 @@
+.text-area{
+    align-self: center;
+    width: 600px;
+    height: 50px;
+    background-color: #0000005c;
+    margin-bottom: 10px;
+    
+
+    &__center {
+        text-align-last: center;
+    }
+
+    &__font-color{
+        color:white;
+        font-size: 25px;
+        font-family: Arial;
+        margin-bottom: 10px;
+    }
+
+    &__big-area{
+        height: 300px;
+    }
+
+    
+}
+
+@media (max-width:425px) {
+    .text-area{
+width: 274px;
+    }
+}
+
+@media (max-width:375px) {
+    .text-area{
+width: 274px;
+
+&__center{
+        margin-top: -68px;
+}
+    }
+}
